@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import { useAuthStore } from "@/app/store/Auth";
 import countries from "@/app/components/Countries";
 import { useState, useEffect, useRef } from "react";
-import Loader from "@/app/components/loader";
+import Loader from "@/app/components/Loader";
 import LogoImg from "@/public/assets/logo.png";
 import styles from "@/app/styles/auth.module.css";
 import { useRouter } from "next/navigation";

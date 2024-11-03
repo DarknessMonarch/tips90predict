@@ -3,7 +3,7 @@
 import Image from "next/image";
 import toast from "react-hot-toast";
 import debounce from "lodash.debounce";
-import Loading from "@/app/components/loader";
+import Loading from "@/app/components/Loader";
 import { useAuthStore } from "@/app/store/Auth";
 import { useDrawerStore } from "@/app/store/Drawer";
 import styles from "@/app/styles/navbar.module.css";
