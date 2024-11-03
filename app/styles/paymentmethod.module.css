@@ -1,0 +1,97 @@
+@media screen {
+  .paymentContainer {
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .paymentContainer h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--font-poppins-regular);
+  }
+
+  .paymentLayout {
+    gap: 10px;
+    display: flex;
+    padding: 10px 0;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    justify-content: flex-start;
+    scroll-snap-type: x mandatory;
+  }
+
+  .payController {
+    gap: 10px;
+    flex-grow: 1;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    min-width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: center;
+    height: var(--termcard-height);
+    background-color: var(--primary-light-color);
+  }
+
+  .paymentImageWp {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  .paymentImage {
+    object-fit: contain;
+  }
+
+  .btnPay {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    color: var(--light-color);
+    background-color: var(--tertiary-color);
+    font-family: var(--font-outfit-light);
+  }
+
+  .btnPay:hover {
+    background-color: var(--tertiary-light);
+  }
+
+  .paymentManual {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--primary-light-color);
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .paymentContainer {
+    height: 100%;
+  }
+  .paymentLayout {
+    justify-content: space-between;
+  }
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width: 91em) {
+}

@@ -1,0 +1,114 @@
+@media screen {
+  .tableWrapper {
+    overflow-x: auto;
+    border-radius: 15px;
+    height: fit-content;
+    color: var(--dark-light);
+    width: 100%;
+  }
+
+  .sportsTable {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1000px;
+    table-layout: fixed;
+  }
+
+
+
+  .tableWrapper tbody tr:nth-child(odd) {
+    background: var(--background-image);
+  }
+
+  .sportsTable th {
+    text-align: left;
+    overflow: hidden;
+    padding: 18px 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--light-color);
+    background: var(--tertiary-color);
+    font-family: var(--font-poppins-light);
+  }
+
+  .sportsTable td {
+    overflow: hidden;
+    text-align: left;
+    padding: 18px 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: var(--font-poppins-light);
+  }
+
+
+  .scoreCell span {
+    color: var(--tertiary-color);
+  }
+
+  .tip {
+    color: var(--tertiary-color);
+  }
+
+  /* Formation styling */
+  .formation {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 4px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .formation::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Tablet and larger devices (768px and up) */
+@media only screen and (min-width: 48em) {
+  .tableWrapper {
+    width: 100%;
+  }
+
+  .sportsTable th {
+    text-align: center;
+    padding: 18px 8px;
+  }
+
+  .tableRow td {
+    text-align: center;
+    padding: 18px 8px;
+  }
+
+  .leagueInfo, .teamInfo {
+    justify-content: center;
+  }
+}
+
+/* iPad Pro screens & laptop (768px - 1024px) */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+  .sportsTable {
+    min-width: 900px;
+  }
+
+
+}
+
+/* Large screens: Desktop (1024px - 1440px) */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  .sportsTable {
+    min-width: 1000px;
+  }
+
+}
+
+/* 5k screens and above (1440px+) */
+@media only screen and (min-width: 91em) {
+  .sportsTable {
+    min-width: 1200px;
+  }
+
+
+}

@@ -1,0 +1,108 @@
+@media screen {
+  .aboutContainer {
+    gap: 20px;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: justify;
+    flex-direction: column;
+  }
+
+  .aboutContainer h1 {
+    font-size: 1.2rem;
+    width: fit-content;
+    border-radius: 15px;
+    text-transform: capitalize;
+    font-family: var(--font-poppins-bold);
+  }
+
+  .aboutContainer h2 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+
+  .aboutContainer h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .aboutContainer p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  .aboutContainer span {
+    text-transform: capitalize;
+    color: var(--secondary-color);
+  }
+
+  .aboutContainerInner {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .help {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .questionsContainer {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .questionsWrapper {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    border-radius: 12px;
+    flex-direction: column;
+    border: 1px solid var(--background-color);
+  }
+
+  .questionsWrapper p {
+    color: var(--background-light-color);
+  }
+
+  .aboutContainerInner ul li {
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration:underline;
+    color: var(--tertairy-color);
+  }
+
+  .aboutContainerInner ul li { 
+    cursor: pointer;
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width: 91em) {
+}

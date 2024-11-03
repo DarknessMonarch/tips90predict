@@ -1,0 +1,158 @@
+@media screen {
+  .sideContainer {
+    left: 0;
+    z-index: 100;
+    height: 100%;
+    display: none;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    flex-direction: column;
+    border-radius: 0 15px 15px 0;
+    transform: translateX(-200%);
+    background-color: var(--primary-color);
+  }
+
+  .toggleMenuButton {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 0;
+    align-items: center;
+  }
+
+  .toggleMenuIcon {
+    font-size: 30px;
+    color: var(--light-color);
+  }
+
+  .toggleMenuIcon:hover {
+    color: var(--tertiary-color);
+  }
+
+  .hideSideNav {
+    transform: translateX(-200%);
+  }
+
+  .showSideNav {
+    display: flex;
+    transform: translateX(0);
+  }
+
+  .sideLogo {
+    padding: 20px 0;
+  }
+
+  .sideContent {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    flex-direction: column
+  
+  }
+
+  .sideTop {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sideLink {
+    cursor: pointer;
+  }
+
+  .sideLink:hover .linkIcon {
+    color: var(--tertiary-color);
+  }
+
+  .innerSideLink {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+
+  .innerSideLink h1 {
+    font-family: var(--font-poppins-extralight);
+    color: var(--light-color);
+    font-size: 0.8rem;
+    text-wrap: nowrap;
+    display: flex;
+    padding: 10px;
+  }
+
+  .activeLink .linkIcon {
+    color: var(--tertiary-color);
+  }
+
+  .activeLink  h1 {
+    color: var(--tertiary-color);
+  }
+
+  .linkIcon  {
+    font-size: 24px;
+    color: var(--light-color);
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .sideContainer {
+    gap: 20px;
+    left: auto;
+    padding: 0;
+    overflow: unset;
+    overflow-y: unset;
+    overflow-x: unset;
+    position: relative;
+    width: var(--sidenav-width);
+    min-width: var(--sidenav-width);
+  }
+
+  .sideTop {
+    align-items: center;
+  }
+
+  .linkIcon {
+    font-size: 28px;
+    color: var(--dark-light);
+  }
+
+  .sideLogo {
+    padding: 10px 0;
+  }
+
+  .activeLink  h1 {
+    color: var(--primary-color);
+  }
+
+  .sideLink:hover .innerSideLink h1 {
+    display: flex;
+  }
+
+  .innerSideLink h1 {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    border-radius: 6px;
+    position: absolute;
+    display: none;
+    left: 70px;
+  }
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width: 91em) {
+}
