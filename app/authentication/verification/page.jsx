@@ -11,7 +11,8 @@ import auth1Image from "@/public/assets/auth1Image.jpg";
 import auth2Image from "@/public/assets/auth2Image.jpg";
 import auth3Image from "@/public/assets/auth3Image.jpg";
 
-import { QrCodeIcon as VerificationIcon } from "@heroicons/react/24/outline";
+import { BsQrCode as VerificationIcon } from "react-icons/bs";
+
 
 export default function Verify() {
   const [isLoading, setIsLoading] = useState(false);
