@@ -5,6 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://www.433tips.com/sitemap.xml',
+    sitemap: 'https://www.tips90predict.com/sitemap.xml',
   }
 }

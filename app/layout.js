@@ -15,15 +15,15 @@ import {
 
 
 export const metadata = {
-  metadataBase: new URL("https://tips90prediction.vercel.app/"),
+  metadataBase: new URL("https://www.tips90predict.com/"),
   title: "Tips90predict - Free Football and Basketball tips & Predictions",
   applicationName: "Tips90predict",
   author: "Tips90predict",
   images:
-    "https://raw.githubusercontent.com/DarknessMonarch/Tips90predict/refs/heads/master/public/assets/banner.png",
+    "https://raw.githubusercontent.com/DarknessMonarch/tips90predict/refs/heads/master/public/assets/banner.png",
   description:
     "Access very strong tips for today games and enjoy victories with everday wining tips.",
-  metadataBase: new URL("https://tips90prediction.vercel.app/"),
+  metadataBase: new URL("https://www.tips90predict.com/"),
   keywords: [
     "betting tips",
     "Everyday winning tips",
@@ -43,10 +43,10 @@ export const metadata = {
     title: "Tips90predict - Free Football and Basketball tips & Predictions",
     description:
       "Access very strong tips for today games and enjoy victories with everday wining tips.",
-    url: "https://tips90prediction.vercel.app//",
+    url: "https://www.tips90predict.com/",
     siteName: "Tips90predict",
     images:
-      "https://raw.githubusercontent.com/DarknessMonarch/Tips90predict/refs/heads/master/public/assets/banner.png",
+      "https://raw.githubusercontent.com/DarknessMonarch/tips90predict/refs/heads/master/public/assets/banner.png",
   },
   robots: {
     index: false,

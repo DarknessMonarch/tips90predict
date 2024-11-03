@@ -47,6 +47,7 @@
     background-attachment: fixed;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    background-color: var(--primary-color);
     font-family: var(--font-poppins-regular);
   }
 

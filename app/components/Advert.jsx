@@ -5,9 +5,10 @@ import { useState, useEffect, useCallback } from "react";
 import Advert1Image from "@/public/assets/auth1Image.jpg";
 import Advert2Image from "@/public/assets/auth2Image.jpg";
 import Advert3Image from "@/public/assets/auth3Image.jpg";
+import Advert4Image from "@/public/assets/auth4Image.png";
 
 export default function AdvertBanner() {
-  const images = [Advert1Image, Advert2Image, Advert3Image];
+  const images = [Advert1Image, Advert2Image, Advert3Image, Advert4Image];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const pathname = usePathname();
   const router = useRouter();
