@@ -40,7 +40,7 @@ export default function About() {
           Utilizing Tips90predict is crucial for anyone looking to enhance their
           betting experience. We provide essential insights that save you time
           and effort, helping you quickly evaluate probabilities for various
-          sporting events. Our team's expertise not only broadens your
+          sporting events. Our team&apos;s expertise not only broadens your
           understanding but also equips you with tools and strategies to manage
           risks effectively. We cover a wide range of sports, and our
           educational resources will elevate your betting skills.
@@ -79,7 +79,7 @@ export default function About() {
           selections, explore our VIP PLAN section to maximize your potential
           returns. Please remember that our services are strictly for
           individuals aged 18 and above, and we advocate for responsible betting
-          practices. While we can't guarantee success due to unpredictable
+          practices. While we can&apos;t guarantee success due to unpredictable
           factors, our analysis maintains a remarkable success rate of over 98%.
         </p>
         <p>

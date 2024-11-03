@@ -284,7 +284,7 @@ export default function PaymentMethods({ params }) {
     if (showMethods.paypal) {
       loadPayPalScript();
     }
-  }, [currentCountry, selectedPlan, selectedPrice, showMethods.paypal]);
+  }, [currentCountry, selectedPlan, selectedPrice, showMethods.paypal, addVIPAccess]);
 
   return (
     <div className={styles.paymentContainer}>

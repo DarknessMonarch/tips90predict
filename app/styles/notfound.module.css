@@ -25,14 +25,14 @@
     cursor: pointer;
     padding: 14px 50px;
     border-radius: 12px;
+    color: var(--light-color);
     text-transform: capitalize;
-    color: var(--primary-color);
     transition: all 0.3s ease-in-out;
-    background-color: var(--background-color);
+    background-color: var(--tertiary-color);
   }
 
   .notFoundBtn:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-light);
   }
   }
 

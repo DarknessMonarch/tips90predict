@@ -72,7 +72,7 @@ export default function SignUp() {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images.length]);
 
   const handleCountrySelect = (country) => {
     setFormData(prev => ({ ...prev, country: country.code }));

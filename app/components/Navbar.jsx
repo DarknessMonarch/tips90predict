@@ -104,9 +104,11 @@ export default function NavbarComponent() {
     }
   }, [toggleAuth]);
 
-  const handleLogin = useCallback(() => {
+  const handleLogin = () => {
     router.push("/authentication/login", { scroll: false });
-  }, []);
+    
+  }
+
 
   return (
     <nav className={styles.navMain}>

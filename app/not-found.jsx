@@ -2,14 +2,14 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import NotFoundAnimated from "@/public/assets/404.gif";
+import NotFoundAnimated from "@/public/assets/404.png";
 import styles from "@/app/styles/notfound.module.css";
 
 export default function NotFound() {
   const router = useRouter();
 
   const goHome = () => {
-    router.push("/page/home");
+    router.push("/page/banker", { scroll: false });
   };
 
   return (

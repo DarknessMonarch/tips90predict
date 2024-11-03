@@ -32,13 +32,13 @@ export default function TermsInfo() {
         <p>
           <strong>Accuracy:</strong> While we strive for accuracy,
           tips90predict.com does not guarantee the completeness or reliability
-          of the information provided. All information is "as is" and may
+          of the information provided. All information is &quot;as is&quot; and may
           contain inaccuracies or outdated material. We are not obligated to
           update any information.
         </p>
         <p>
           <strong>User Responsibility:</strong> Any gains or losses from betting
-          are solely the user’s responsibility. tips90predict.com cannot be
+          are solely the user&apos;s responsibility. tips90predict.com cannot be
           liable for any damages or losses related to services, picks, or
           predictions.
         </p>
