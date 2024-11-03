@@ -22,7 +22,7 @@ export default function Verify() {
   const router = useRouter();
   const SERVER_API = process.env.NEXT_PUBLIC_SERVER_API;
 
-  const images = [auth1Image, auth2Image, auth3Image, auth4Image];
+  const images = [auth1Image, auth2Image, auth3Image];
 
   useEffect(() => {
     const interval = setInterval(() => {
